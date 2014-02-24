@@ -164,6 +164,7 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.3)
       mime-types
+    pg (0.17.1)
     polyamorous (0.6.4)
       activerecord (>= 3.0)
     polyglot (0.3.3)
@@ -343,6 +344,7 @@ DEPENDENCIES
   nokogiri
   paper_trail (~> 2.7.0)
   paperclip
+  pg
   premailer
   pry-rails
   quiet_assets
