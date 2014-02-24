@@ -133,7 +133,7 @@
 #   :not_allowed    -- users can only be added by system administrator. This is the default.
 #   :needs_approval -- users can sign up but must be approved before they can use the system.
 #
-:user_signup: :not_allowed
+:user_signup: :allowed
 
 
 # Address format
@@ -278,19 +278,13 @@
 #------------------------------------------------------------------------------
 account_category:
   - :affiliate
-  - :competitor
   - :customer
   - :partner
-  - :reseller
-  - :vendor
 
 account_category_color:
   :affiliate   : lavender
-  :competitor  : paleturquoise
   :customer    : pink
   :partner     : bisque
-  :reseller    : thistle
-  :vendor      : skyblue
 
 # Campaign Status. To add custom status use string value, for example:
 #
@@ -328,6 +322,7 @@ lead_status_color:
 
 lead_source:
   - :campaign
+  - :open_house
   - :cold_call
   - :conference
   - :online
@@ -364,6 +359,7 @@ opportunity_stage_color:
 #------------------------------------------------------------------------------
 task_category:
   - :call
+  - :showing
   - :email
   - :follow_up
   - :lunch
@@ -374,6 +370,7 @@ task_category:
 
 task_category_color:
   :call         : Silver
+  :showing      : PaleGoldenRod
   :email        : Turquoise
   :follow_up    : Gold
   :lunch        : Tomato
